@@ -61,15 +61,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YyI-IV-245">
-                                <rect key="frame" x="40" y="650" width="334" height="172"/>
+                                <rect key="frame" x="40" y="762" width="334" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH7-bh-7ba">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AF-PG-KKY">
+                                        <rect key="frame" x="0.0" y="30" width="334" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YyI-IV-245" secondAttribute="trailing" constant="40" id="goO-M7-F6y"/>
-                            <constraint firstItem="YyI-IV-245" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="606" id="oFz-XS-e9D"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YyI-IV-245" secondAttribute="bottom" constant="40" id="pS4-Ff-zC0"/>
-                            <constraint firstItem="YyI-IV-245" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="rm1-Zk-Hyv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YyI-IV-245" secondAttribute="trailing" constant="40" id="Ezz-N1-qrW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YyI-IV-245" secondAttribute="bottom" constant="40" id="ReD-IW-fNq"/>
+                            <constraint firstItem="YyI-IV-245" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="SfU-4c-rt2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
