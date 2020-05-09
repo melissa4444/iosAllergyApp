@@ -29,6 +29,14 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setUpElements()
+    }
+    func setUpElements(){
+        errorLabel.alpha = 0
+        
+        
+
+        
     }
     
 
