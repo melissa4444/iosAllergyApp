@@ -32,10 +32,21 @@ class SignUpViewController: UIViewController {
         setUpElements()
     }
     func setUpElements(){
+        //hide error label 
         errorLabel.alpha = 0
         
+        //style the elements
+        
+        Utilities.styleTextField(nameTxtField)
+        
+        Utilities.styleTextField(usernameTxtField)
+        
+        Utilities.styleTextField(emailTxtField)
+        
+        Utilities.styleTextField(passwordTxtField)
         
 
+        Utilities.styleFilledButton(signUpBttn)
         
     }
     
