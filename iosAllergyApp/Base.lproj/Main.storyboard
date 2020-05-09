@@ -44,6 +44,9 @@
                                             <constraint firstAttribute="height" constant="40" id="kN7-oa-GjL"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="signUpTap:" destination="epa-fA-KUs" eventType="touchUpInside" id="pNf-YB-vFf"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7J-S0-SZb">
                                         <rect key="frame" x="0.0" y="300" width="334" height="20.5"/>
@@ -69,6 +72,14 @@
                         <viewLayoutGuide key="safeArea" id="H91-ax-eae"/>
                     </view>
                     <navigationItem key="navigationItem" id="2is-Bt-HET"/>
+                    <connections>
+                        <outlet property="emailTxtField" destination="KkB-up-E2Y" id="ZeL-Gq-Ixf"/>
+                        <outlet property="errorLabel" destination="f7J-S0-SZb" id="mE3-ZI-NbX"/>
+                        <outlet property="nameTxtField" destination="MD1-1B-Y8x" id="KlV-L5-G4d"/>
+                        <outlet property="passwordTxtField" destination="8uH-ka-fI9" id="9Dc-ws-8zr"/>
+                        <outlet property="signUpBttn" destination="PbL-j1-b5d" id="wWj-qZ-KXf"/>
+                        <outlet property="usernameTxtField" destination="qny-Qo-TdI" id="pgE-Rr-uZ5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blt-db-0Hb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,12 +123,12 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DQ9-I7-Qd2">
                                 <rect key="frame" x="40" y="84" width="334" height="220"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5rh-HR-JDM">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5rh-HR-JDM">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceb-Es-6Ye">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceb-Es-6Ye">
                                         <rect key="frame" x="0.0" y="60" width="334" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -128,6 +139,9 @@
                                             <constraint firstAttribute="height" constant="40" id="zUg-nS-Ufz"/>
                                         </constraints>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginTap:" destination="brt-Ae-wdI" eventType="touchUpInside" id="uV6-TQ-dZh"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be5-aa-zmX">
                                         <rect key="frame" x="0.0" y="180" width="334" height="40"/>
@@ -154,6 +168,10 @@
                         <viewLayoutGuide key="safeArea" id="be0-2V-9Rb"/>
                     </view>
                     <navigationItem key="navigationItem" id="84R-An-8MU"/>
+                    <connections>
+                        <outlet property="passwordTxtField" destination="ceb-Es-6Ye" id="mhP-gq-v9b"/>
+                        <outlet property="usernameTxtField" destination="5rh-HR-JDM" id="BTx-6X-rZG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4UL-gM-Xjm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
