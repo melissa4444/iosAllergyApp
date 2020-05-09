@@ -18,11 +18,27 @@ class loginViewController: UIViewController {
     @IBOutlet weak var passwordTxtField: UITextField!
     
     
+ 
+    @IBOutlet weak var loginBttn: UIButton!
+    
+    
+    
+    @IBOutlet weak var errorlabel: UILabel!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        
+        
+        
+        
+        
     }
     
 
@@ -38,4 +54,5 @@ class loginViewController: UIViewController {
 
     @IBAction func loginTap(_ sender: Any) {
     }
+    
 }

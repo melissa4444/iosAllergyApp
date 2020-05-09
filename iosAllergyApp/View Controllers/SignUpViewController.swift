@@ -32,7 +32,7 @@ class SignUpViewController: UIViewController {
         setUpElements()
     }
     func setUpElements(){
-        //hide error label 
+        //hide error label
         errorLabel.alpha = 0
         
         //style the elements

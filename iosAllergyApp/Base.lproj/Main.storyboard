@@ -140,7 +140,7 @@
                                         </constraints>
                                         <state key="normal" title="Login"/>
                                         <connections>
-                                            <action selector="loginTap:" destination="brt-Ae-wdI" eventType="touchUpInside" id="uV6-TQ-dZh"/>
+                                            <action selector="loginTap:" destination="brt-Ae-wdI" eventType="touchUpInside" id="elO-uH-fga"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be5-aa-zmX">
@@ -169,6 +169,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="84R-An-8MU"/>
                     <connections>
+                        <outlet property="errorlabel" destination="be5-aa-zmX" id="i6w-OD-bQ8"/>
+                        <outlet property="loginBttn" destination="0o9-nU-ggV" id="1a2-AT-dph"/>
                         <outlet property="passwordTxtField" destination="ceb-Es-6Ye" id="mhP-gq-v9b"/>
                         <outlet property="usernameTxtField" destination="5rh-HR-JDM" id="BTx-6X-rZG"/>
                     </connections>
