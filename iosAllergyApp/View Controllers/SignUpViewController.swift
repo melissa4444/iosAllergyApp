@@ -70,8 +70,12 @@ class SignUpViewController: UIViewController {
         // check if the password is secure
         //method is in group Helpers in Utilities.swift
         
+        let cleanPassword = passwordTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
-        
+        if Utilities.isPasswordValid(cleanPassword) == false {
+            //password is not secure
+            return "Please secure your password it MUST have at least 8 characters, containing special characters and numbers."
+        }
         
         return nil
     }
