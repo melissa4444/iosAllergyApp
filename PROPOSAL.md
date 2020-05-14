@@ -26,4 +26,4 @@ track function
 able to add random allergies experienced like basically a list
 included with a share feature to social media  
 
-The final functionalities are the user being able to login and logout 
+The final functionalities are the user being able to login and logout AND add allergies to the database AND a search functionality. 
