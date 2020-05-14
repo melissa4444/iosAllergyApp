@@ -62,9 +62,45 @@ class loginViewController: UIViewController {
     }
     */
 
+    func validateField() -> String? {
+        if emailTxtField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            passwordTxtField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+        {
+            return "please fill all fields"
+        }
+        
+        let cleanPassword = passwordTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        if Utilities.isPasswordValid(cleanPassword)==false {
+            //password incorrect
+            return "incorrect password"
+        }
+        
+        
+        
+        return nil
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @IBAction func loginTap(_ sender: Any) {
         
         //todo validate text field
+        
+      
+        
+        
+        
+        
+        
+        
+        
         
         //create cleaned fields
         let email  = emailTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -87,8 +123,28 @@ class loginViewController: UIViewController {
            self.view.window?.rootViewController = homeViewController
            self.view.window?.makeKeyAndVisible()
        }
+                        
+                        
+                        
+                        self.transToHome()
    }
         
+        
+        
     }
+    
+    
+    func showError(_ message: String ){
+        errorlabel.text = message
+        errorlabel.alpha = 1
+    }
+    func transToHome(){
+        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as?
+        HomeViewController
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+        
+    }
+    
     
 }
