@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class loginViewController: UIViewController {
 
    
     
-    @IBOutlet weak var usernameTxtField: UITextField!
+    @IBOutlet weak var emailTxtField: UITextField!
+    
     
     
     @IBOutlet weak var passwordTxtField: UITextField!
@@ -46,7 +47,7 @@ class loginViewController: UIViewController {
         
         //style the elements
         
-        Utilities.styleTextField(usernameTxtField)
+        Utilities.styleTextField(emailTxtField)
         Utilities.styleTextField(passwordTxtField)
         Utilities.styleFilledButton(loginBttn)
         
@@ -62,6 +63,32 @@ class loginViewController: UIViewController {
     */
 
     @IBAction func loginTap(_ sender: Any) {
+        
+        //todo validate text field
+        
+        //create cleaned fields
+        let email  = emailTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = passwordTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        //signing in the user
+        
+  Auth.auth().signIn(withEmail: email,
+                     password: password) { (result, error) in
+       
+       if error != nil {
+           // Couldn't sign in
+           self.errorlabel.text = error!.localizedDescription
+           self.errorlabel.alpha = 1
+       }
+       else {
+           
+           let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+           
+           self.view.window?.rootViewController = homeViewController
+           self.view.window?.makeKeyAndVisible()
+       }
+   }
+        
     }
     
 }

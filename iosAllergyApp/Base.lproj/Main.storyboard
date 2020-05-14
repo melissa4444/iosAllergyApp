@@ -180,7 +180,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DQ9-I7-Qd2">
                                 <rect key="frame" x="40" y="294" width="334" height="250"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5rh-HR-JDM">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5rh-HR-JDM" userLabel="Email Txt Field">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -200,7 +200,7 @@
                                             <action selector="loginTap:" destination="brt-Ae-wdI" eventType="touchUpInside" id="elO-uH-fga"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be5-aa-zmX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be5-aa-zmX" userLabel="Error Label">
                                         <rect key="frame" x="0.0" y="210" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="pSE-3p-Bfb"/>
@@ -308,10 +308,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="84R-An-8MU"/>
                     <connections>
+                        <outlet property="emailTxtField" destination="5rh-HR-JDM" id="Kzl-fl-wXR"/>
                         <outlet property="errorlabel" destination="be5-aa-zmX" id="i6w-OD-bQ8"/>
                         <outlet property="loginBttn" destination="0o9-nU-ggV" id="1a2-AT-dph"/>
                         <outlet property="passwordTxtField" destination="ceb-Es-6Ye" id="mhP-gq-v9b"/>
-                        <outlet property="usernameTxtField" destination="5rh-HR-JDM" id="BTx-6X-rZG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4UL-gM-Xjm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
