@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9607FB0246D01640038257C /* GoogleService-Info.plist */; };
 		C98A72C42466467D00A014D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C32466467D00A014D0 /* AppDelegate.swift */; };
 		C98A72C62466467D00A014D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C52466467D00A014D0 /* SceneDelegate.swift */; };
 		C98A72C82466467D00A014D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C72466467D00A014D0 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9607FB0246D01640038257C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C98A72C02466467D00A014D0 /* iosAllergyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAllergyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98A72C32466467D00A014D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98A72C52466467D00A014D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				C98A72CC2466467E00A014D0 /* Assets.xcassets */,
 				C98A72CE2466467E00A014D0 /* LaunchScreen.storyboard */,
 				C98A72D12466467E00A014D0 /* Info.plist */,
+				C9607FB0246D01640038257C /* GoogleService-Info.plist */,
 			);
 			path = iosAllergyApp;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C98A72D02466467E00A014D0 /* LaunchScreen.storyboard in Resources */,
+				C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */,
 				C98A72CD2466467E00A014D0 /* Assets.xcassets in Resources */,
 				C98A72CB2466467D00A014D0 /* Main.storyboard in Resources */,
 			);

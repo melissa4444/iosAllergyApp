@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>328505112985-cgeo3k2448eqc3p64mcoothb8sg0dusg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.328505112985-cgeo3k2448eqc3p64mcoothb8sg0dusg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAafaMSQCZzXrzuJyFKYUNhV26ASxVHw_s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>328505112985</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.melissanguyen.iosAllergyApp</string>
+	<key>PROJECT_ID</key>
+	<string>iosallergyapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iosallergyapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:328505112985:ios:ae26547d353afa6cd23b08</string>
+	<key>DATABASE_URL</key>
+	<string>https://iosallergyapp.firebaseio.com</string>
+</dict>
+</plist>
