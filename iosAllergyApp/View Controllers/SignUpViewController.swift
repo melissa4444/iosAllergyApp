@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import FirebaseAuth
 
 
 
@@ -106,7 +106,16 @@ class SignUpViewController: UIViewController {
         }
         else {
             //create the user
-            
+            Auth.auth().createUser(withEmail: " ", password: " ") { (result, err) in
+                if err != nil{
+                    //error with user
+                    self.showError("error creating user")
+                }
+                else {
+                    //user created store data
+                    
+                }
+            }
             
         }
         

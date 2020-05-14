@@ -11,7 +11,7 @@
 		C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9607FB0246D01640038257C /* GoogleService-Info.plist */; };
 		C98A72C42466467D00A014D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C32466467D00A014D0 /* AppDelegate.swift */; };
 		C98A72C62466467D00A014D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C52466467D00A014D0 /* SceneDelegate.swift */; };
-		C98A72C82466467D00A014D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C72466467D00A014D0 /* ViewController.swift */; };
+		C98A72C82466467D00A014D0 /* import Firebase import GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C72466467D00A014D0 /* import Firebase import GoogleSignIn.swift */; };
 		C98A72CB2466467D00A014D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98A72C92466467D00A014D0 /* Main.storyboard */; };
 		C98A72CD2466467E00A014D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98A72CC2466467E00A014D0 /* Assets.xcassets */; };
 		C98A72D02466467E00A014D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98A72CE2466467E00A014D0 /* LaunchScreen.storyboard */; };
@@ -28,7 +28,7 @@
 		C98A72C02466467D00A014D0 /* iosAllergyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAllergyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98A72C32466467D00A014D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98A72C52466467D00A014D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C98A72C72466467D00A014D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C98A72C72466467D00A014D0 /* import Firebase import GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "import Firebase import GoogleSignIn.swift"; sourceTree = "<group>"; };
 		C98A72CA2466467D00A014D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C98A72CC2466467E00A014D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98A72CF2466467E00A014D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,10 +106,10 @@
 		C98A72DD2466473D00A014D0 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C98A72C72466467D00A014D0 /* ViewController.swift */,
 				C98A72D72466470F00A014D0 /* SignUpViewController.swift */,
-				C98A72DB2466473800A014D0 /* HomeViewController.swift */,
 				C98A72D92466472000A014D0 /* loginViewController.swift */,
+				C98A72DB2466473800A014D0 /* HomeViewController.swift */,
+				C98A72C72466467D00A014D0 /* import Firebase import GoogleSignIn.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -134,6 +134,7 @@
 				C98A72BD2466467D00A014D0 /* Frameworks */,
 				C98A72BE2466467D00A014D0 /* Resources */,
 				4E9070818A556C96DE28A76D /* [CP] Embed Pods Frameworks */,
+				AAC15180A63220B5321D159C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +232,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AAC15180A63220B5321D159C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosAllergyApp/Pods-iosAllergyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosAllergyApp/Pods-iosAllergyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosAllergyApp/Pods-iosAllergyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98A72C82466467D00A014D0 /* ViewController.swift in Sources */,
+				C98A72C82466467D00A014D0 /* import Firebase import GoogleSignIn.swift in Sources */,
 				C98A72C42466467D00A014D0 /* AppDelegate.swift in Sources */,
 				C990BCA824674CA000ABBAB9 /* Utilities.swift in Sources */,
 				C98A72D82466470F00A014D0 /* SignUpViewController.swift in Sources */,
