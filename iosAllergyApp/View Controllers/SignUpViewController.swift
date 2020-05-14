@@ -50,6 +50,31 @@ class SignUpViewController: UIViewController {
         
     }
     
+    
+    //new method to validate the fields
+    //check the fields and validate that the data is correct if everyhting works then this
+    //method returns nil or the error msg as a string
+    
+    func validateField() -> String? {
+        
+        //check that all fields are filled in
+        //remove white space and check if empty
+        if nameTxtField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            usernameTxtField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            emailTxtField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            passwordTxtField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+            {
+            return "Please Fill in all fields."
+        }
+        
+        // check if the password is secure
+        //method is in group Helpers in Utilities.swift
+        
+        
+        
+        
+        return nil
+    }
 
     /*
     // MARK: - Navigation
@@ -61,6 +86,19 @@ class SignUpViewController: UIViewController {
     }
     */
     @IBAction func signUpTap(_ sender: Any) {
+        
+        //validate the fields
+        
+        
+        
+        //create the user
+        
+        
+        
+        //transition to home screen
+        
+        
+        
     }
     
 }
