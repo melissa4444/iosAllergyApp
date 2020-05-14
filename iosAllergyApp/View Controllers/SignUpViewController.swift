@@ -105,21 +105,37 @@ class SignUpViewController: UIViewController {
             showError(error!)
         }
         else {
+            
+            //cleaned version of data created
+            let name = nameTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let username = usernameTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let email = emailTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let password = passwordTxtField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             //create the user
-            Auth.auth().createUser(withEmail: " ", password: " ") { (result, err) in
+            Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
                 if err != nil{
                     //error with user
                     self.showError("error creating user")
                 }
                 else {
                     //user created store data
+                    let db = Firestore.firestore()
                     
+                    db.collection("users").addDocument(data: ["name": name,"username":username, "uid": result!.user.uid])
+                        { (error) in
+                            if error != nil {
+                                //show error
+                                self.showError("user data could not be stored...database down")
+                            }
+                        }
+                        
+                    //transition to the home screen
+                    self.transToHome()
                 }
             }
             
         }
         
-        //transition to home screen
     
     }
     
@@ -128,5 +144,14 @@ class SignUpViewController: UIViewController {
                  errorLabel.text = message
                  errorLabel.alpha =  1
     }
-    
+ 
+    func transToHome() {
+     
+            let homeViewController =
+                storyboard?.instantiateInitialViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        
+        
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
 }
