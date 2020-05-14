@@ -1,7 +1,7 @@
 # iosAllergyApp
 firebase ios swift application
 iOS app for tracking and maintaining allergy data base using FIREBASE server 
-##Melissa Nguyen 
+### Melissa Nguyen 
 ### Proposal
 ID:918591991
 
