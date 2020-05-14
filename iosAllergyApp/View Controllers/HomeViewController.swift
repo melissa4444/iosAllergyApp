@@ -10,9 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    
     @IBOutlet weak var startBttn: UIButton!
-    
-    
     
     
     
@@ -20,12 +19,13 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setUpElements()
     }
     
-    func setUpElements(){
-        Utilities.styleFilledButton(startBttn)
-    }
+    
+    
+    
+  
+    
     /*
     // MARK: - Navigation
 
@@ -35,12 +35,16 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+ 
+    
     @IBAction func startBttnTap(_ sender: Any) {
-        
-        
         
     }
     
+        
+        
 }
+    
+
 
 
