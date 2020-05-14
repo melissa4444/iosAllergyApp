@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class SignUpViewController: UIViewController {
 
     
@@ -104,16 +105,11 @@ class SignUpViewController: UIViewController {
             //create the user
             
             
+            
         }
         
-        //create the user
-        
-        
-        
         //transition to home screen
-        
-        
-        
+    
     }
     
     func showError(_ message: String ) {
