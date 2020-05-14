@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,7 +66,6 @@
 				0BC443279BB62EFC74FB2F3A /* Pods-iosAllergyApp.debug.xcconfig */,
 				7B2C5B48BDBA0D98C310EEDC /* Pods-iosAllergyApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

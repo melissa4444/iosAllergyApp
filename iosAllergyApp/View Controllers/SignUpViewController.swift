@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import LocalAuthentication
 class SignUpViewController: UIViewController {
 
     
@@ -103,7 +103,6 @@ class SignUpViewController: UIViewController {
         }
         else {
             //create the user
-            
             
             
         }
