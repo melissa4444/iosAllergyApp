@@ -78,7 +78,7 @@ class SignUpViewController: UIViewController {
         
         if Utilities.isPasswordValid(cleanPassword) == false {
             //password is not secure
-            return "Please secure your password it MUST have at least 8 characters, containing special characters and numbers."
+            return " 8 characters, containing special characters and numbers."
         }
         
         return nil
@@ -147,11 +147,9 @@ class SignUpViewController: UIViewController {
  
     func transToHome() {
      
-            let homeViewController =
-                storyboard?.instantiateInitialViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-        
-        
-        view.window?.rootViewController = homeViewController
-        view.window?.makeKeyAndVisible()
+                 let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+             
+             view.window?.rootViewController = homeViewController
+             view.window?.makeKeyAndVisible()
     }
 }
