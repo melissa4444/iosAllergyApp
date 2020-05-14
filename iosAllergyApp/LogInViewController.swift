@@ -1,31 +1,22 @@
 //
-//  HomeViewController.swift
+//  LogInViewController.swift
 //  iosAllergyApp
 //
-//  Created by Melissa Nguyen on 5/8/20.
+//  Created by Melissa Nguyen on 5/14/20.
 //  Copyright © 2020 Melissa Nguyen. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class LogInViewController: UIViewController {
 
-    @IBOutlet weak var startBttn: UIButton!
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setUpElements()
     }
     
-    func setUpElements(){
-        Utilities.styleFilledButton(startBttn)
-    }
+
     /*
     // MARK: - Navigation
 
@@ -35,12 +26,5 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func startBttnTap(_ sender: Any) {
-        
-        
-        
-    }
-    
+
 }
-
-
