@@ -6,8 +6,20 @@ target 'iosAllergyApp' do
   use_frameworks!
 
   # Pods for iosAllergyApp
-# add the Firebase pod for Google Analytics
+
 pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'GoogleSignIn'
+pod 'Firebase/Core'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
+pod 'Gallery'
+pod 'InstantSearchClient'
+pod 'Firebase/Database'	
+pod 'Firebase/Functions'	
+pod 'Firebase/Messaging'	
+pod 'Firebase/RemoteConfig'	
+
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
 end
