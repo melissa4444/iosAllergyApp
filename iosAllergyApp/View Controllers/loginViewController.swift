@@ -33,7 +33,7 @@ class loginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        
+        setUpElements()
         
         
         
@@ -41,7 +41,16 @@ class loginViewController: UIViewController {
         
     }
     
-
+    func setUpElements() {
+        errorlabel.alpha=0
+        
+        //style the elements
+        
+        Utilities.styleTextField(usernameTxtField)
+        Utilities.styleTextField(passwordTxtField)
+        Utilities.styleFilledButton(loginBttn)
+        
+    }
     /*
     // MARK: - Navigation
 
