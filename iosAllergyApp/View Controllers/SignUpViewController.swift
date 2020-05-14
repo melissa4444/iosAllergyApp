@@ -93,7 +93,18 @@ class SignUpViewController: UIViewController {
         
         //validate the fields
         
-        
+        let error = validateField()
+        if error != nil {
+            
+            //something went wrong show message
+            
+            showError(error!)
+        }
+        else {
+            //create the user
+            
+            
+        }
         
         //create the user
         
@@ -103,6 +114,12 @@ class SignUpViewController: UIViewController {
         
         
         
+    }
+    
+    func showError(_ message: String ) {
+        
+                 errorLabel.text = message
+                 errorLabel.alpha =  1
     }
     
 }
