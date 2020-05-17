@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class UserInfoViewController: UIViewController {
 
@@ -14,17 +15,13 @@ class UserInfoViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+        view.backgroundColor = .white
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .done, target: self, action: #selector(handlesSignOutTapp))
+             }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func handlesSignOutTapp(){
+        print(123)
     }
-    */
 
 }
