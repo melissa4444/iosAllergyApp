@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oPu-Ik-gGu">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="U5L-pY-AFZ">
+            <objects>
+                <viewController id="q1n-sa-rJF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3YR-M0-lVV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="EzR-qy-aLU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="fYy-wx-y5b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7t-Kj-nSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3786" y="-537"/>
+        </scene>
+        <!--Allergies-->
+        <scene sceneID="W9P-am-Pwd">
+            <objects>
+                <viewController id="aDx-sP-oYp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vc9-pW-r8h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="die-ch-Ig9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Allergies" image="exclamationmark.triangle.fill" catalog="system" id="sGF-Fk-hGZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NkM-z7-QUX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2114" y="-537"/>
+        </scene>
+        <!--User-->
+        <scene sceneID="epY-6U-b7P">
+            <objects>
+                <viewController id="xBL-ap-At2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hIL-kg-WKa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fWU-Ce-5Be"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="User" image="person.crop.circle" catalog="system" id="1so-Ql-dyV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Z7-pB-VTM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1301" y="-522"/>
+        </scene>
+        <!--Tracker-->
+        <scene sceneID="mfP-zs-h0Y">
+            <objects>
+                <viewController id="ANt-aI-Pcf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Le0-w9-m2O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="LdF-j4-qtO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tracker" image="scope" catalog="system" id="Il3-BG-2dC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsQ-Kf-hLJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2943" y="-537"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FcC-Bf-yf9">
+            <objects>
+                <tabBarController id="oPu-Ik-gGu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Vco-gQ-1C6"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HyK-Gm-1dY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ANt-aI-Pcf" kind="relationship" relationship="viewControllers" id="ZWz-Th-rm6"/>
+                        <segue destination="q1n-sa-rJF" kind="relationship" relationship="viewControllers" id="53O-RX-B4c"/>
+                        <segue destination="aDx-sP-oYp" kind="relationship" relationship="viewControllers" id="YCn-i1-p1J"/>
+                        <segue destination="xBL-ap-At2" kind="relationship" relationship="viewControllers" id="WR5-AT-Chr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uaJ-h9-RuU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2639" y="-1264"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="exclamationmark.triangle.fill" catalog="system" width="128" height="112"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="scope" catalog="system" width="128" height="122"/>
+    </resources>
+</document>

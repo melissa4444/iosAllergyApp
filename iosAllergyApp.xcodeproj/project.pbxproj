@@ -12,6 +12,7 @@
 		C936DE672470B61900F48C65 /* trackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE662470B61900F48C65 /* trackerViewController.swift */; };
 		C936DE692470B62A00F48C65 /* allergyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE682470B62A00F48C65 /* allergyListViewController.swift */; };
 		C936DE6B2470B63500F48C65 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE6A2470B63500F48C65 /* UserInfoViewController.swift */; };
+		C94E70B52470C7AD002A125A /* userIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94E70B42470C7AD002A125A /* userIn.storyboard */; };
 		C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9607FB0246D01640038257C /* GoogleService-Info.plist */; };
 		C96AAC4E246D37DD0088C012 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96AAC4D246D37DD0088C012 /* Constants.swift */; };
 		C98A72C42466467D00A014D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C32466467D00A014D0 /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 		C936DE662470B61900F48C65 /* trackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackerViewController.swift; sourceTree = "<group>"; };
 		C936DE682470B62A00F48C65 /* allergyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allergyListViewController.swift; sourceTree = "<group>"; };
 		C936DE6A2470B63500F48C65 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		C94E70B42470C7AD002A125A /* userIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = userIn.storyboard; sourceTree = "<group>"; };
 		C9607FB0246D01640038257C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C96AAC4D246D37DD0088C012 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C98A72C02466467D00A014D0 /* iosAllergyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAllergyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				C990BCA624674C5000ABBAB9 /* Helpers */,
 				C98A72DD2466473D00A014D0 /* View Controllers */,
 				C98A72C92466467D00A014D0 /* Main.storyboard */,
+				C94E70B42470C7AD002A125A /* userIn.storyboard */,
 				C98A72CE2466467E00A014D0 /* LaunchScreen.storyboard */,
 				C98A72CC2466467E00A014D0 /* Assets.xcassets */,
 				C98A72D12466467E00A014D0 /* Info.plist */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94E70B52470C7AD002A125A /* userIn.storyboard in Resources */,
 				C98A72D02466467E00A014D0 /* LaunchScreen.storyboard in Resources */,
 				C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */,
 				C98A72CD2466467E00A014D0 /* Assets.xcassets in Resources */,
