@@ -421,6 +421,7 @@
         <!--Item-->
         <scene sceneID="srV-D3-fG9">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5eL-qC-BdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="6uA-Gn-vba" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="house.fill" catalog="system" id="mZL-4q-3X4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bf6-iO-tYk">
@@ -431,7 +432,6 @@
                         <segue destination="PuO-wC-XuJ" kind="relationship" relationship="rootViewController" id="Qeh-VN-nac"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5eL-qC-BdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2041" y="-2304"/>
         </scene>
@@ -455,6 +455,7 @@
         <!--Item-->
         <scene sceneID="PzB-nR-Qd5">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tf4-IF-AI8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="JAV-sM-FAN" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="heart.slash.fill" catalog="system" id="B5i-e2-te1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pVP-RP-hS2">
@@ -465,13 +466,13 @@
                         <segue destination="wLq-te-BYV" kind="relationship" relationship="rootViewController" id="4Az-W7-b60"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tf4-IF-AI8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2041" y="-920"/>
         </scene>
         <!--Item-->
         <scene sceneID="fkU-2G-1tl">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QMy-SI-U6m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="8I3-5N-vD8" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="person.fill" catalog="system" id="L50-TA-aHi"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5yB-or-YX7">
@@ -482,13 +483,13 @@
                         <segue destination="6Iy-50-imw" kind="relationship" relationship="rootViewController" id="cDe-iO-Mfm"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QMy-SI-U6m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2041" y="-88"/>
         </scene>
         <!--Item-->
         <scene sceneID="JKF-NY-fVt">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DaS-ag-17Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="u54-hA-CH2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="scope" catalog="system" id="ZLR-ef-dSx"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oRV-H5-dSW">
@@ -499,17 +500,16 @@
                         <segue destination="iOw-fg-diM" kind="relationship" relationship="rootViewController" id="QKj-Oc-KGF"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DaS-ag-17Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2041" y="-1606"/>
         </scene>
         <!--Tracker-->
         <scene sceneID="adn-83-e11">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9aT-VY-pQs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="iOw-fg-diM" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Tracker" id="Zeq-ZX-ZkX"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9aT-VY-pQs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3086" y="-1606"/>
         </scene>
@@ -552,19 +552,7 @@
                     <view key="view" contentMode="scaleToFill" id="52u-C5-s8d" customClass="UserItem" customModule="iosAllergyApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U9D-nI-I4Z">
-                                <rect key="frame" x="60" y="449" width="90.5" height="289"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="289" id="Q8C-ZK-HNu"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="U9D-nI-I4Z" firstAttribute="leading" secondItem="9IL-Se-7uo" secondAttribute="leading" constant="60" id="8IH-8i-eVT"/>
-                            <constraint firstItem="9IL-Se-7uo" firstAttribute="bottom" secondItem="U9D-nI-I4Z" secondAttribute="bottom" constant="21" id="z7Y-wP-BKV"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9IL-Se-7uo"/>
                     </view>
                     <navigationItem key="navigationItem" title="User" id="TOZ-cg-IQN"/>

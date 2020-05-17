@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C7CA59FB68BE378C6241C1BE /* Pods_iosAllergyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0298C57EF2794B4D564A0 /* Pods_iosAllergyApp.framework */; };
+		C936DE652470B5DC00F48C65 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE642470B5DC00F48C65 /* HouseViewController.swift */; };
+		C936DE672470B61900F48C65 /* trackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE662470B61900F48C65 /* trackerViewController.swift */; };
+		C936DE692470B62A00F48C65 /* allergyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE682470B62A00F48C65 /* allergyListViewController.swift */; };
+		C936DE6B2470B63500F48C65 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936DE6A2470B63500F48C65 /* UserInfoViewController.swift */; };
 		C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9607FB0246D01640038257C /* GoogleService-Info.plist */; };
 		C96AAC4E246D37DD0088C012 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96AAC4D246D37DD0088C012 /* Constants.swift */; };
 		C98A72C42466467D00A014D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72C32466467D00A014D0 /* AppDelegate.swift */; };
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		0BC443279BB62EFC74FB2F3A /* Pods-iosAllergyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAllergyApp.debug.xcconfig"; path = "Target Support Files/Pods-iosAllergyApp/Pods-iosAllergyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7B2C5B48BDBA0D98C310EEDC /* Pods-iosAllergyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAllergyApp.release.xcconfig"; path = "Target Support Files/Pods-iosAllergyApp/Pods-iosAllergyApp.release.xcconfig"; sourceTree = "<group>"; };
+		C936DE642470B5DC00F48C65 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		C936DE662470B61900F48C65 /* trackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackerViewController.swift; sourceTree = "<group>"; };
+		C936DE682470B62A00F48C65 /* allergyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allergyListViewController.swift; sourceTree = "<group>"; };
+		C936DE6A2470B63500F48C65 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		C9607FB0246D01640038257C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C96AAC4D246D37DD0088C012 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C98A72C02466467D00A014D0 /* iosAllergyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAllergyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +120,10 @@
 				C98A72D92466472000A014D0 /* loginViewController.swift */,
 				C98A72DB2466473800A014D0 /* HomeViewController.swift */,
 				C98A72C72466467D00A014D0 /* ViewController.swift */,
+				C936DE642470B5DC00F48C65 /* HouseViewController.swift */,
+				C936DE662470B61900F48C65 /* trackerViewController.swift */,
+				C936DE682470B62A00F48C65 /* allergyListViewController.swift */,
+				C936DE6A2470B63500F48C65 /* UserInfoViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -260,11 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C98A72C82466467D00A014D0 /* ViewController.swift in Sources */,
+				C936DE6B2470B63500F48C65 /* UserInfoViewController.swift in Sources */,
+				C936DE652470B5DC00F48C65 /* HouseViewController.swift in Sources */,
 				C98A72C42466467D00A014D0 /* AppDelegate.swift in Sources */,
 				C990BCA824674CA000ABBAB9 /* Utilities.swift in Sources */,
 				C98A72D82466470F00A014D0 /* SignUpViewController.swift in Sources */,
 				C98A72C62466467D00A014D0 /* SceneDelegate.swift in Sources */,
 				C98A72DA2466472000A014D0 /* loginViewController.swift in Sources */,
+				C936DE692470B62A00F48C65 /* allergyListViewController.swift in Sources */,
+				C936DE672470B61900F48C65 /* trackerViewController.swift in Sources */,
 				C98A72DC2466473800A014D0 /* HomeViewController.swift in Sources */,
 				C96AAC4E246D37DD0088C012 /* Constants.swift in Sources */,
 			);
