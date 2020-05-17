@@ -462,14 +462,14 @@
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Uuw-rT-oKz"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="pV8-M3-jdF"/>
+                    <tabBarItem key="tabBarItem" title="Allergies" image="nosign" catalog="system" id="pV8-M3-jdF"/>
                     <navigationItem key="navigationItem" title="Allergies" id="Ltf-1U-dsQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="it4-Lr-IXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1449" y="-390"/>
         </scene>
-        <!--View Controller-->
+        <!--User-->
         <scene sceneID="Rol-Mr-337">
             <objects>
                 <viewController id="BOy-Tc-b6t" sceneMemberID="viewController">
@@ -479,7 +479,7 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CcL-cF-793"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="person.circle" catalog="system" id="4II-Nb-WJM"/>
+                    <tabBarItem key="tabBarItem" title="User" image="person.circle" catalog="system" id="4II-Nb-WJM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hkd-ej-4Y4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -495,7 +495,7 @@
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="9IL-Se-7uo"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="scope" catalog="system" id="s3q-2i-hVl"/>
+                    <tabBarItem key="tabBarItem" title="Tracker" image="scope" catalog="system" id="s3q-2i-hVl"/>
                     <navigationItem key="navigationItem" title="User" id="TOZ-cg-IQN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="REz-9n-8OG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -510,6 +510,7 @@
         <image name="arrow.left.circle.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="newLogo" width="200" height="200"/>
+        <image name="nosign" catalog="system" width="128" height="121"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="scope" catalog="system" width="128" height="122"/>
     </resources>
