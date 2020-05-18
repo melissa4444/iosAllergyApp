@@ -10,8 +10,7 @@ import UIKit
 
 class HouseViewController: UIViewController {
 
-    @IBAction func picBttnTap(_ sender: Any) {
-    }
+  
     
     
     

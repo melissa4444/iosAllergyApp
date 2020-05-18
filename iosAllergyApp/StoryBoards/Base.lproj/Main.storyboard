@@ -369,6 +369,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1IK-gr-W5g" secondAttribute="trailing" id="KWI-DY-33S"/>
+                                    <constraint firstAttribute="bottom" secondItem="1IK-gr-W5g" secondAttribute="bottom" id="m55-QB-Ouv"/>
+                                    <constraint firstItem="1IK-gr-W5g" firstAttribute="leading" secondItem="YyI-IV-245" secondAttribute="leading" id="n35-WM-A18"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH7-bh-7ba">
                                 <rect key="frame" x="40" y="409" width="335" height="50"/>
@@ -386,10 +391,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AF-PG-KKY">
                                 <rect key="frame" x="40" y="467" width="334" height="48"/>
-                                <color key="backgroundColor" red="0.72111732819999996" green="0.82525097150000004" blue="0.63032604130000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Login">
-                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="brt-Ae-wdI" kind="show" id="Xdr-iw-fYA"/>
