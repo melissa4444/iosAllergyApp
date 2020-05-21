@@ -19,18 +19,21 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iosscan-1" translatesAutoresizingMaskIntoConstraints="NO" id="GUg-1t-G1w">
+                                <rect key="frame" x="63" y="300" width="288" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDT-4b-fFm">
-                                <rect key="frame" x="136" y="682" width="142" height="30"/>
+                                <rect key="frame" x="136" y="664" width="142" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72111732819999996" green="0.82525097150000004" blue="0.63032604130000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <segue destination="4Kz-3V-Kc3" kind="presentation" id="z5l-bn-TaA"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iosscan-1" translatesAutoresizingMaskIntoConstraints="NO" id="GUg-1t-G1w">
-                                <rect key="frame" x="63" y="300" width="288" height="297"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -50,6 +53,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7t-Kj-nSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4336.231884057971" y="103.79464285714285"/>
+        </scene>
+        <!--scan-->
+        <scene sceneID="N6s-hX-oeX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="scan" id="4Kz-3V-Kc3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJE-5P-CPX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4336" y="520"/>
         </scene>
         <!--Tracker-->
         <scene sceneID="W9P-am-Pwd">
@@ -510,7 +521,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dED-s8-sLM"/>
+        <segue reference="cR4-pE-7Ji"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="exclamationmark.triangle" catalog="system" width="128" height="112"/>

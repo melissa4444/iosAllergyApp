@@ -26,6 +26,8 @@
 		C98A72DA2466472000A014D0 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72D92466472000A014D0 /* loginViewController.swift */; };
 		C98A72DC2466473800A014D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A72DB2466473800A014D0 /* HomeViewController.swift */; };
 		C990BCA824674CA000ABBAB9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C990BCA724674CA000ABBAB9 /* Utilities.swift */; };
+		C99EE6972475FBAF00F4D6DA /* scan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99EE6962475FBAF00F4D6DA /* scan.storyboard */; };
+		C99EE6992475FD2D00F4D6DA /* CameraScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EE6982475FD2D00F4D6DA /* CameraScanTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		C98A72D92466472000A014D0 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		C98A72DB2466473800A014D0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C990BCA724674CA000ABBAB9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../Utilities.swift; sourceTree = "<group>"; };
+		C99EE6962475FBAF00F4D6DA /* scan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = scan.storyboard; sourceTree = "<group>"; };
+		C99EE6982475FD2D00F4D6DA /* CameraScanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanTableViewController.swift; sourceTree = "<group>"; };
 		E1E0298C57EF2794B4D564A0 /* Pods_iosAllergyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosAllergyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +94,7 @@
 				C98A72C92466467D00A014D0 /* Main.storyboard */,
 				C94E70B42470C7AD002A125A /* userIn.storyboard */,
 				C94E70C624710614002A125A /* List.storyboard */,
+				C99EE6962475FBAF00F4D6DA /* scan.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 				C98A72CC2466467E00A014D0 /* Assets.xcassets */,
 				C98A72D12466467E00A014D0 /* Info.plist */,
 				C9607FB0246D01640038257C /* GoogleService-Info.plist */,
+				C99EE6982475FD2D00F4D6DA /* CameraScanTableViewController.swift */,
 			);
 			path = iosAllergyApp;
 			sourceTree = "<group>";
@@ -217,6 +223,7 @@
 				C9607FB1246D01640038257C /* GoogleService-Info.plist in Resources */,
 				C98A72CD2466467E00A014D0 /* Assets.xcassets in Resources */,
 				C94E70C724710614002A125A /* List.storyboard in Resources */,
+				C99EE6972475FBAF00F4D6DA /* scan.storyboard in Resources */,
 				C98A72CB2466467D00A014D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +303,7 @@
 				C98A72C62466467D00A014D0 /* SceneDelegate.swift in Sources */,
 				C98A72DA2466472000A014D0 /* loginViewController.swift in Sources */,
 				C936DE692470B62A00F48C65 /* allergyListViewController.swift in Sources */,
+				C99EE6992475FD2D00F4D6DA /* CameraScanTableViewController.swift in Sources */,
 				C936DE672470B61900F48C65 /* trackerViewController.swift in Sources */,
 				C98A72DC2466473800A014D0 /* HomeViewController.swift in Sources */,
 				C96AAC4E246D37DD0088C012 /* Constants.swift in Sources */,
