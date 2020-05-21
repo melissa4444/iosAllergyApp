@@ -128,7 +128,6 @@
 				C98A72CC2466467E00A014D0 /* Assets.xcassets */,
 				C98A72D12466467E00A014D0 /* Info.plist */,
 				C9607FB0246D01640038257C /* GoogleService-Info.plist */,
-				C99EE6982475FD2D00F4D6DA /* CameraScanTableViewController.swift */,
 			);
 			path = iosAllergyApp;
 			sourceTree = "<group>";
@@ -136,6 +135,7 @@
 		C98A72DD2466473D00A014D0 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C99EE6982475FD2D00F4D6DA /* CameraScanTableViewController.swift */,
 				C98A72D72466470F00A014D0 /* SignUpViewController.swift */,
 				C98A72D92466472000A014D0 /* loginViewController.swift */,
 				C98A72DB2466473800A014D0 /* HomeViewController.swift */,
